@@ -163,6 +163,10 @@ a{
     font-family: 'Libre Franklin', sans-serif !important;
     font-weight: 700 !important;
 }
+#tarjetas{
+    padding: 25px;
+
+}
 .titlecard, h1{
     font-weight: 700;
     font-size: 3.7rem;
