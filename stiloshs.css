@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Libre+Franklin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+body{
+ 
+ background-color: rgb(0, 0, 0) !important;
+ 
+}
+/* MODIFICA EL COLOR DE FONDO DEL NAVBAR*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.897)!important;
+    box-shadow: 1px 2px 3px white !important;
+    }
+    
+    .navbar-text,
+    /*MODIFICA EL LOGO*/
+    .navbar-brand{
+        margin-left: 3.6rem !important;
+        font-size: 2.4rem !important;
+        font-family: 'Ephesis', cursive;
+        transition: .1s ease;
+        color: rgb(255, 255, 255) !important;
+    }
+    /*MODIFICA EL COLOR DE LAS LETRAS EN EL NAVBAR*/
+    .nav-link{
+        color:rgb(255, 255, 255) !important;
+        font-size: 20px !important;
+        font-family: 'Libre Franklin', sans-serif !important;
+        transition: .3s ease;
+        font-weight: 700 !important;
+        text-align: center !important;
+    }
+    .nav-link:hover{
+        font-size: 20px;
+        color: red !important;
+        font-weight: 700 !important; 
+        
+    }
+    
+a{
+    text-decoration: none !important;
+}
+.navbar-toggler,navbar-toggler-icon{
+    margin-right: 3rem;
+}
+.container-fluid{
+    color: black;
+}
+.navbar-toggler{
+    border-color: white !important;
+}
+#cont{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left !important;
+}
+.card{
+    box-shadow: 0.1px 0.2px 4px 1px rgb(226, 226, 226) !important;
+}
+#fondo1{
+    padding-top: 0%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#bienvenidos1{
+    color: white;
+    text-align: left !important;
+    font-family: 'DM Serif Display', serif;
+    font-weight:100 !important;
+    font-size: 1.5rem;
+}
+#bienvenidos{
+    color: white;
+    text-align: left !important;
+    font-family: 'DM Serif Display', serif;
+    font-weight:500 !important;
+    font-size: 3rem;
+}
+
+#imgcarru{
+    max-height: 50% !important;
+    min-height: 50% !important;
+}
+.card-group{
+    margin-top: 0px !important;
+}
+#carouselExampleAutoplaying{
+    margin-top: 3.5rem;
+}
+
+.bien{
+    text-align: center !important;
+    font-size: 2.4rem !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    transition: .1s ease;
+    color: rgb(255, 255, 255) !important;
+}
+.bien1{
+    text-align: center !important;
+    font-size: 4.4rem !important;
+    font-family: 'Ephesis', cursive;
+    transition: .1s ease;
+    color: rgb(255, 255, 255) !important;
+}
+
+.carousel-item {
+    max-height: 700px;
+
+}
+.card-img-top{
+    max-height: 400px;
+}
+
+
+.title{
+    text-align: center !important;
+    font-size: 2.4rem !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    transition: .1s ease;
+    color: rgb(0, 0, 0) !important;
+}
+.title a{
+    text-decoration: none;
+    text-align: center !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    transition: .1s ease;
+    color: rgb(61, 0, 0) !important;
+}
+
+.subtitle{
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+}
+#imgcard{
+    transition: .5s ease;
+    opacity: 0.90;
+}
+#imgcard:hover{
+    opacity: 1;
+    filter: contrast(100%) !important;
+    transform: scale(1.01);
+}
+
+#noti{
+    background-color: black !important;
+    color: white;
+    font-size: 20px !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700 !important;
+}
+.titlecard, h1{
+    font-weight: 700;
+    font-size: 3.7rem;
+
+}
+.subtitlecard{
+    font-size: 1.7rem;
+}
+#basetext{
+    margin-top: 0px;
+    font-size: 1rem;
+    color: rgb(255, 248, 248) !important;
+}
+
+.diseñoPAL {
+    text-decoration: none;
+    color: white;
+}
+.diseñoPAL:hover{
+    font-weight: 500;
+    color: red;
+}
+
+.modal-content{
+    border: 1px solid white !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+.modal-title{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: rgb(255, 255, 255) !important;
+
+}
+.modal-body{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 20px !important;
+    text-align: left !important;
+    background-color: rgb(0, 0, 0) !important;
+    transition: .3s ease;
+}
+.fotmodal{
+    font-family: 'Ephesis', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 0 !important;
+    text-align: left;
+    margin-bottom: 0px !important;
+    margin-top: auto !important;
+    color: white !important;
+}
+#exampleModalLabel{
+    padding: 0px !important;
+    margin: auto;
+}
+
+
+
+
+/*MODIFICA LOS ICONOS SOCIALES*/
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+  #formu{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Libre Franklin', sans-serif !important; 
+    font-weight: 200 !important;
+    font-size: 24px !important;
+    margin-top: 0px;
+  }
+#reser{
+    padding-top: 40px;
+    background-color: black;
+    padding-bottom: 0;
+    margin-left: 5rem;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 30px !important;
+}
+
+.centrado{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-size: 3rem !important;
+    text-align: center;
+    color: #fffefe;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0);
+    
+}
+
+.yo{
+    padding-bottom: 30px !important;
+}
+
+#boton-alan{
+
+    font-family: 'Libre Franklin', sans-serif !important;
+    padding: 7px 30px;
+    background-color: rgb(116, 8, 8);
+    color: #ffffff;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    transition: .5s ease;
+    align-items: center;
+
+}
+#boton-alan1{
+    
+    font-family: 'Libre Franklin', sans-serif !important;
+    padding: 7px 30px;
+    background-color: rgb(116, 8, 8);
+    color: #ffffff;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    transition: .5s ease;
+
+
+}
+
+.form-select{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700 !important;
+}
+#opncion{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700 !important;
+}
+.form-control{
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.card-body{
+    overflow: hidden !important;
+}
+.ov{
+    overflow: hidden !important;
+}
+div{
+    overflow: hidden !important;
+}
+#Alan {
+    position: relative;
+    overflow: hidden !important;
+    transition: .5s ease;
+    opacity: 0.80;
+
+}
+#Alan:hover{
+    cursor:crosshair;
+    opacity: 1;
+    transform: scale(1.01);
+}
+
+#comentarios{
+    padding-top: 40px;
+    background-color: black;
+    padding-bottom: 0;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    text-align: center;
+}
+
+
+.textocopy{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem !important;
+    font-family: 'Ephesis', cursive;
+    font-weight: 200 !important;
+}
+.FOOTERH5{
+    color: white !important;
+    font-weight: 600;
+}
+.footerP{
+    color: white !important;
+}
+.fab:hover{
+    color: rgb(235, 113, 113) !important;
+}
+footer{
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+}
+hr{
+    color: white !important;
+}
+.textdeja:hover{
+    color: rgb(235, 113, 113) !important;
+}
+.seccion-acuarela {
+    background-color: #181818; 
+}
+.seccion-realista {
+    background-color: #1a1a1a; 
+}
+.seccion-puntillismo {
+    background-color: rgb(32, 32, 32); 
+}
+.seccion-tribal {
+    background-color: #292929; 
+}
+.seccion-manga {
+    background-color: #323232;
+}
